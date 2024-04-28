@@ -5,7 +5,6 @@ class Message < ApplicationRecord
   # after_destroy_commit -> { broadcast_remove_to room }
   # after_update_commit -> { broadcast_replace_to room }
 
-  broadcasts_to :room
-
+  # broadcasts_to :room
 
 end
