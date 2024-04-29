@@ -3,7 +3,7 @@
 <%=rand(10000)%>
 
 
-<%#=turbo_stream_from @room %>
+<%=turbo_stream_from @room %>
 
 <%= turbo_frame_tag "room" do %>
   <%= render @room%>
